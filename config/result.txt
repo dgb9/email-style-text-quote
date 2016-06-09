@@ -1,0 +1,66 @@
+C:\a\jdk1.8\bin\java -Didea.launcher.port=7532 -Didea.launcher.bin.path=C:\a\intellij\bin -Dfile.encoding=UTF-8 -classpath C:\a\jdk1.8\jre\lib\charsets.jar;C:\a\jdk1.8\jre\lib\deploy.jar;C:\a\jdk1.8\jre\lib\ext\access-bridge-64.jar;C:\a\jdk1.8\jre\lib\ext\cldrdata.jar;C:\a\jdk1.8\jre\lib\ext\dnsns.jar;C:\a\jdk1.8\jre\lib\ext\jaccess.jar;C:\a\jdk1.8\jre\lib\ext\jfxrt.jar;C:\a\jdk1.8\jre\lib\ext\localedata.jar;C:\a\jdk1.8\jre\lib\ext\nashorn.jar;C:\a\jdk1.8\jre\lib\ext\sunec.jar;C:\a\jdk1.8\jre\lib\ext\sunjce_provider.jar;C:\a\jdk1.8\jre\lib\ext\sunmscapi.jar;C:\a\jdk1.8\jre\lib\ext\sunpkcs11.jar;C:\a\jdk1.8\jre\lib\ext\zipfs.jar;C:\a\jdk1.8\jre\lib\javaws.jar;C:\a\jdk1.8\jre\lib\jce.jar;C:\a\jdk1.8\jre\lib\jfr.jar;C:\a\jdk1.8\jre\lib\jfxswt.jar;C:\a\jdk1.8\jre\lib\jsse.jar;C:\a\jdk1.8\jre\lib\management-agent.jar;C:\a\jdk1.8\jre\lib\plugin.jar;C:\a\jdk1.8\jre\lib\resources.jar;C:\a\jdk1.8\jre\lib\rt.jar;C:\Daniel\idea\emailquote\out\production\emailquote;C:\a\intellij\lib\idea_rt.jar com.intellij.rt.execution.application.AppMain com.ispnote.tools.quote.Process C:\Daniel\idea\emailquote\config\lorem.txt
+>> Lorem ipsum dolor sit amet, ac sed, cras tincidunt
+>> mauris  pellentesque luctus. Pellentesque magna nullam
+>> tincidunt, dolor  eget vivamus class aliquam ac, aliquet
+>> sed nulla nisl, bibendum viverra, velit nunc vestibulum
+>> libero orci blandit. Nunc vitae ac velit semper maecenas
+>> vitae, dolor id. Gravida augue, sed vitae suscipit.
+>> Neque nunc ac dapibus, suspendisse orci habitant ipsum,
+>> tempus nunc et integer at in, integer nec ut cras ligula.
+>> Justo eros justo eros cubilia ante, tincidunt proin
+>> ut. Aenean tortor mi, semper quam, lorem elementum.
+>> Posuere nibh porttitor diam semper maecenas purus,
+>> pellentesque ornare, eu risus libero consectetuer nulla.
+>> Morbi a sollicitudin, felis quam elit eu suscipit nulla,
+>> quis non aliquet, ante ac, fringilla nostra eu diam
+>> in morbi eget.
+
+> Lorem ipsum dolor sit amet, ac sed, cras tincidunt
+> mauris pellentesque luctus. Pellentesque magna nullam
+> tincidunt, dolor eget vivamus class aliquam ac, aliquet
+> sed nulla nisl, bibendum viverra, velit nunc vestibulum
+> libero orci blandit. Nunc vitae ac velit semper maecenas
+> vitae, dolor id. Gravida augue, sed vitae suscipit.
+> Neque nunc ac dapibus, suspendisse orci habitant ipsum,
+> tempus nunc et integer at in, integer nec ut cras ligula.
+> Justo eros justo eros cubilia ante, tincidunt proin
+> ut. Aenean tortor mi, semper quam, lorem elementum.
+> Posuere nibh porttitor diam semper maecenas purus,
+> pellentesque ornare, eu risus libero consectetuer nulla.
+> Morbi a sollicitudin, felis quam elit eu suscipit nulla,
+> quis non aliquet, ante ac, fringilla nostra eu diam
+> in morbi eget.
+
+>> Lorem ipsum dolor sit amet, ac sed, cras tincidunt
+>> mauris pellentesque luctus. Pellentesque magna nullam
+>> tincidunt, dolor eget vivamus class aliquam ac, aliquet
+>> sed nulla nisl, bibendum viverra, velit nunc vestibulum
+>> libero orci blandit. Nunc vitae ac velit semper maecenas
+>> vitae, dolor id. Gravida augue, sed vitae suscipit.
+>> Neque nunc ac dapibus, suspendisse orci habitant ipsum,
+>> tempus nunc et integer at in, integer nec ut cras ligula.
+>> Justo eros justo eros cubilia ante, tincidunt proin
+>> ut. Aenean tortor mi, semper quam, lorem elementum.
+>> Posuere nibh porttitor diam semper maecenas purus,
+>> pellentesque ornare, eu risus libero consectetuer nulla.
+>> Morbi a sollicitudin, felis quam elit eu suscipit nulla,
+>> quis non aliquet, ante ac, fringilla nostra eu diam
+>> in morbi eget.
+
+> Lorem ipsum dolor sit amet, ac sed, cras tincidunt
+> mauris pellentesque luctus. Pellentesque magna nullam
+> tincidunt, dolor eget vivamus class aliquam ac, aliquet
+> sed nulla nisl, bibendum viverra, velit nunc vestibulum
+> libero orci blandit. Nunc vitae ac velit semper maecenas
+> vitae, dolor id. Gravida augue, sed vitae suscipit.
+> Neque nunc ac dapibus, suspendisse orci habitant ipsum,
+> tempus nunc et integer at in, integer nec ut cras ligula.
+> Justo eros justo eros cubilia ante, tincidunt proin
+> ut. Aenean tortor mi, semper quam, lorem elementum.
+> Posuere nibh porttitor diam semper maecenas purus,
+> pellentesque ornare, eu risus libero consectetuer nulla.
+> Morbi a sollicitudin, felis quam elit eu suscipit nulla,
+> quis non aliquet, ante ac, fringilla nostra eu diam
+> in morbi eget.
+
+>
