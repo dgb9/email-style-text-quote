@@ -27,15 +27,15 @@ public class CommandLine {
         for(int index = 0; index < nr; index ++) {
             String arg = args[index];
 
-            if ("--noquote".equals(arg)) {
+            if (Constants.PARAMETER_NOQUOTE.equals(arg)) {
                 noquote = true;
             }
-            else if ("--help".equals(arg)) {
+            else if (Constants.PARAMETER_HELP.equals(arg)) {
                 help = true;
 
                 break; // does not make sense to keep processing - help was triggered
             }
-            else if ("--cols".equals(arg)) {
+            else if (Constants.PARAMETER_COLS.equals(arg)) {
                 // adjust the number of columns
                 if (index + 1 < nr) {
                     index++;
