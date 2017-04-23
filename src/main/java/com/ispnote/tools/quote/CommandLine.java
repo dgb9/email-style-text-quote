@@ -3,6 +3,9 @@ package com.ispnote.tools.quote;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The class processes the command line parameters
+ */
 public class CommandLine {
     private static final int COLUMNS = 50;
 
