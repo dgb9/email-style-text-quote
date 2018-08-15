@@ -7,7 +7,8 @@ import java.util.Iterator;
 
 public class Process
 {
-	public static void main(String[] args){
+
+    public static void main(String[] args){
 		try {
 			CommandLine command = new CommandLine();
 			command.processCommandLine(args);
@@ -184,6 +185,7 @@ public class Process
 			while(cont){
 				if(lines.size() > 0){
 					String ln = lines.get(0);
+                    ln = removeLeadingBlanks(ln);
 					
 					if(isFilled(ln) && getOffset(ln) == offset){
 						lines.remove(0);
@@ -206,16 +208,39 @@ public class Process
 		return res;
 	}
 
-	private boolean isFilled(String ln) {
+    private String removeLeadingBlanks(String ln) {
+        StringBuilder bl = new StringBuilder();
+        int len = ln.length();
+
+        boolean atBeginning = true;
+        for (int count = 0; count < len; count++) {
+            String chr = ln.substring(count, count + 1);
+
+            if(chr.matches("[\\d]")){
+                if(! atBeginning){
+                    bl.append(chr);
+                }
+            }
+            else if (! chr.equals(Constants.QUOTE_STRING)) {
+                atBeginning = false;
+            }
+        }
+
+        return bl.toString();
+    }
+
+    private boolean isFilled(String ln) {
 		return ! isEmpty(ln);
 	}
 
 	private int getOffset(String line) {
 		int nr = 0;
-		int length = line.length(); 
+
+		int length = line.length();
 		
 		for(int count = 0; count < length; count ++){
-			if(">".equals(line.substring(count, count + 1))){
+			String nextCharacter = line.substring(count, count + 1);
+			if(Constants.QUOTE_STRING.equals(nextCharacter)){
 				nr ++;
 			}
 			else {
@@ -226,7 +251,7 @@ public class Process
 		return nr; 
 	}
 
-	private boolean isEmpty(String line) {
+    private boolean isEmpty(String line) {
 		return line == null || line.trim().length() == 0;
 	}
 

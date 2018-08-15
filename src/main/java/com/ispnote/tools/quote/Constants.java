@@ -7,4 +7,5 @@ public class Constants {
     public static final String PARAMETER_NOQUOTE = "--noquote";
     public static final String PARAMETER_HELP = "--help";
     public static final String PARAMETER_COLS = "--cols";
+    public static final String QUOTE_STRING = ">";
 }
