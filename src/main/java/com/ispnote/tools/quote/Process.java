@@ -178,7 +178,9 @@ public class Process
 		
 		// peek the latest line
 		if(lines.size() > 0){
-			String line = lines.get(0); 
+			String line = lines.get(0);
+            line = removeLeadingBlanks(line);
+
 			offset = getOffset(line);
 			
 			cont = true; 
@@ -208,25 +210,22 @@ public class Process
 		return res;
 	}
 
-    private String removeLeadingBlanks(String ln) {
-        StringBuilder bl = new StringBuilder();
-        int len = ln.length();
+    public String removeLeadingBlanks(String ln) {
+		String res = ln == null ? "" : ln.trim();
+		String res2 = null;
 
-        boolean atBeginning = true;
-        for (int count = 0; count < len; count++) {
-            String chr = ln.substring(count, count + 1);
+		do {
+			res2 = res.replaceAll("(^>+)(\\s+)(.*)", "$1$3");
 
-            if(chr.matches("[\\d]")){
-                if(! atBeginning){
-                    bl.append(chr);
-                }
+            if (res2.equals(res)) {
+                break;
             }
-            else if (! chr.equals(Constants.QUOTE_STRING)) {
-                atBeginning = false;
-            }
-        }
 
-        return bl.toString();
+            res = res2;
+		}
+		while (true);
+
+		return res;
     }
 
     private boolean isFilled(String ln) {
