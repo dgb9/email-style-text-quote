@@ -95,10 +95,13 @@ public class Process
 		Iterator<String> iter = wrapped.iterator();
 		while(iter.hasNext()){
 			int prefixIncrease = (noQuote ? 0 : 1);
-			String spacer = noQuote ? "" : " ";
-			printPrefix(par.getQuotes() + prefixIncrease );
-			
-			String line = iter.next();
+			int totalQuotes = par.getQuotes() + prefixIncrease;
+
+			printPrefix(totalQuotes);
+
+            String spacer = totalQuotes > 0 ? " " : "";
+            String line = iter.next();
+
 			println(spacer  + line);
 		}
 		
