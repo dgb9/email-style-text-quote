@@ -16,6 +16,7 @@ a maven pom file is provided. The project has no dependencies.
 Execute without parameters for a short help:
 
 ================
+
 Usage: quote [--cols newcols] [--noquote] [--help] [file1 file2 file3 ...]
  The program gets a number of text files or if missing the console input
    and processes the text to wrap it and add quotes at the beginning. Quote knows
